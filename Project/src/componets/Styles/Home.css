@@ -1,0 +1,90 @@
+header .Title{
+    color: var(--TreeColor);
+    font-family: var(--fontPacifico);
+    font-size: 100px;
+}
+
+header .Opacar{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.SubTitleHome{
+    font-family: var(--fontNotoHebreo);
+    font-size: 40px;
+    color: var(--TreeColor);
+    font-weight: bold;
+}
+
+
+
+.downArrowHome{
+    height: 40px;
+    width: 40px;
+    margin-inline-start: 10px;
+    margin-block-start: 10px;
+}
+
+
+
+.downHome{
+    margin-block-start: 0;
+    border: 3px solid var(--TreeColor);
+}
+
+.downHome a{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+.downHome :hover{
+    cursor: pointer;
+}
+
+.MenuTemas{
+    background-color: var(--SecondaryColor);
+    height: auto;
+    padding-bottom: 30px;
+
+}
+
+.TitleMenu{
+    margin-inline-start: 10px;
+    font-size: 50px;
+    color: white;
+    font-family: var(--fontNotoHebreo);
+}
+
+.ListMenu{
+    
+    list-style: none;
+    font-size: 30px;
+    font-family: var(--fontNotoSans);
+    
+    text-align: center;
+    
+}
+
+.ListMenu li{
+    margin-block-start: 30px;
+}
+.tems{
+    text-decoration: none;
+    color: var(--TreeColor);
+}
+
+
+.MenuDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.isGrow span{
+    font-size: 35px;
+    background-color:  rgba(52, 224, 105, 0.5);
+    padding: 5px;
+    cursor: pointer;
+}

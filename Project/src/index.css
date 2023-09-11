@@ -1,0 +1,13 @@
+:root {
+ --fontRoboto:'Roboto', sans-serif;
+ --fontNotoSans: 'Noto Sans', sans-serif;
+ --fontPacifico: 'Pacifico', cursive;
+ --fontNotoHebreo: 'Noto Sans Hebrew', sans-serif;
+ --PrimaryColor: #b4ccd0; 
+ --SecondaryColor: #56818a;
+ --TreeColor: #444442;
+ --FiveColor: #ccb3a3; 
+ --ColorSubtitles: #be9f8a;
+ --NegativeColor: black;
+ --FourthColor: ;
+}

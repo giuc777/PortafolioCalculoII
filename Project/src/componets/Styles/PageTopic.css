@@ -1,0 +1,72 @@
+.bodyPage{
+    padding-block-start: 20px;
+    background-color: var(--PrimaryColor);
+    padding-block-end: 20px;
+}
+
+.BackTo{
+    position: absolute;
+    margin-inline-start: 30px;
+    margin-block-start: 100px;
+    left: 0;
+    font-size: 35px;
+    font-family: var(--fontRoboto);
+    text-align: center;
+    width: 120px;
+    height: 110px;
+    background-color: var(--FiveColor);
+
+    clip-path: polygon(
+        0% 0%,      /* Punto superior izquierdo */
+        100% 0%,    /* Punto superior derecho */
+        100% 80%,   /* Punto derecho superior del triángulo */
+        50% 100%,   /* Punto central inferior del triángulo */
+        0% 80%      /* Punto izquierdo superior del triángulo */
+    );
+}
+
+.BackTo :hover{
+    color: var(--TreeColor);
+}
+
+.Text{
+    text-decoration: none;
+    color: white;
+}
+
+.TitlePage{
+    width: 75vw;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    font-family: var(--fontNotoHebreo);
+    font-size: 2rem;
+    color: var(--SecondaryColor);
+}
+
+.content{
+    margin-block-start: 30px;
+    text-align: center;
+    margin-inline-start: 15vw;
+    margin-inline-end: 15vw;
+    background-color: white;
+    border-radius: 10px;
+    padding-block-end: 30px;
+
+}
+
+
+
+.ParagraphPage{
+    font-size: 1.5rem;
+    font-family: var(--fontNotoSans);
+    text-align: left;
+    margin: 5px;
+}
+
+.contentOfPage h2{
+    color: var(--ColorSubtitles);
+    font-family: var(--fontPacifico);
+    font-size: 3rem;
+}
